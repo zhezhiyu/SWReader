@@ -82,16 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				4803A318216C914C0018AFE8 /* Global */,
-				4803A317216C8F900018AFE8 /* Core */,
+				48126D68216D9F2500EC9442 /* Core */,
 			);
 			path = SWReader;
-			sourceTree = "<group>";
-		};
-		4803A317216C8F900018AFE8 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Core;
 			sourceTree = "<group>";
 		};
 		4803A318216C914C0018AFE8 /* Global */ = {
@@ -103,6 +96,13 @@
 				4803A31D216C92650018AFE8 /* SWReadUtilites.m */,
 			);
 			path = Global;
+			sourceTree = "<group>";
+		};
+		48126D68216D9F2500EC9442 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,8 +322,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2V6F2N2SWY;
+				DEVELOPMENT_TEAM = 3WMCX5CRW4;
 				INFOPLIST_FILE = SWReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,8 +340,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2V6F2N2SWY;
+				DEVELOPMENT_TEAM = 3WMCX5CRW4;
 				INFOPLIST_FILE = SWReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -67,6 +67,11 @@ UIKIT_EXTERN CGFloat const SWSpace_10;
 UIKIT_EXTERN CGFloat const SWSpace_15;
 UIKIT_EXTERN CGFloat const SWSpace_20;
 UIKIT_EXTERN CGFloat const SWSpace_25;
+UIKIT_EXTERN CGFloat const SWReadViewTopSpace;
+UIKIT_EXTERN CGFloat const SWReadViewBottomSpace;
+UIKIT_EXTERN CGFloat const SWReadViewLeftSpace;
+UIKIT_EXTERN CGFloat const SWReadViewRightSpace;
+UIKIT_EXTERN CGFloat const SWBottomStatusHeight;
 
 // MARK: 拖拽触发光标范围
 UIKIT_EXTERN CGFloat const SWCursorOffset;

@@ -30,6 +30,19 @@ NS_ASSUME_NONNULL_BEGIN
 /// 阅读TableView的位置
 + (CGRect)getReadTableViewFrame;
 
+/* 阅读视图位置
+ 
+ 需要做横竖屏的可以在这里修改阅读View的大小
+ 
+ getReadViewFrame 会使用与 阅读View的Frame 以及计算分页的范围
+ 
+ */
++ (CGRect)getReadViewFrame;
+
+// MARK: -- 创建文件夹
+/// 创建文件夹 如果存在则不创建
++ (BOOL)createFilePath:(NSString *)filePath;
+
 @end
 
 NS_ASSUME_NONNULL_END

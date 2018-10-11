@@ -20,6 +20,11 @@ CGFloat const SWSpace_10 = 10;
 CGFloat const SWSpace_15 = 15;
 CGFloat const SWSpace_20 = 20;
 CGFloat const SWSpace_25 = 25;
+CGFloat const SWReadViewTopSpace = SWSpace_10;
+CGFloat const SWReadViewBottomSpace = SWSpace_10;
+CGFloat const SWReadViewLeftSpace = SWSpace_15;
+CGFloat const SWReadViewRightSpace = SWSpace_15;
+CGFloat const SWBottomStatusHeight = SWSpace_25;
 
 // MARK: 拖拽触发光标范围
 CGFloat const SWCursorOffset = -SWSpace_20;
